@@ -1,0 +1,8 @@
+<div class="wrapper" [ngClass]="{ 'collapse': isSideNavCollapsed }">
+  <app-top-navbar></app-top-navbar>
+  <app-sidebar></app-sidebar>
+
+  <div class="main_container">
+    <router-outlet></router-outlet>
+  </div>
+</div>
